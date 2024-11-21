@@ -6,21 +6,31 @@ int main ()
   const int width {400};
   const int height {600};
   const int fps {60};
-
-  //rectangle
-  const int rectangleWidth {40};
-  const int rectangleHeight {50};
-  int rectanglePosX {(width/2)-(rectangleWidth/2)};
-  int rectanglePosY {height-rectangleHeight};
-  int rectangleYVelocity {0}; // when jumping each frame will decrease by jumpVelo, when falling increase by gravity 
-  const int jumpVelocity {-22}; // acceleration (22p/f)/f
-  const int gravity {1}; // acceleration
-  bool isInAir {}; //false , to prevent air jumping
-
-
-
   InitWindow(width, height, "Dapper Dasher👾");
   SetTargetFPS(fps);
+
+  //scarfy
+  Texture2D scarfy = LoadTexture("textures/scarfy.png");
+  
+  // scarfy by frame
+  Rectangle scarfyRec;
+  scarfyRec.width = scarfy.width/6;
+  scarfyRec.height = scarfy.height;
+  scarfyRec.x = 0;
+  scarfyRec.y = 0;
+
+  // scarfy position in window
+  Vector2 scarfyPos;
+  scarfyPos.x = (width/2) - (scarfyRec.width/2);
+  scarfyPos.y = height - scarfyRec.height;
+  
+  int scarfyVelocity {0}; 
+  const int jumpVelocity {-22};
+  const int gravity {1};
+  bool isInAir {};
+
+
+
 
   while (!WindowShouldClose())
   {
@@ -28,36 +38,33 @@ int main ()
 
     ClearBackground(WHITE);
 
-    //rectangle drawing
-    DrawRectangle(rectanglePosX, rectanglePosY, rectangleWidth, rectangleHeight , BLUE);
 
-    // jumping logic
-
-    // check is rectangle on ground
-    if (rectanglePosY >= height-rectangleHeight)
+    if (scarfyPos.y >= height-scarfyRec.height)
     {
       isInAir = false;
-      rectangleYVelocity = 0;
+      scarfyVelocity = 0;
     }
     else
     {
-      // rectangle in the air , it will comback to the ground by gravity
       isInAir = true;
-      rectangleYVelocity += gravity;
+      scarfyVelocity += gravity;
     }
 
-    // jump logic
     if(IsKeyPressed(KEY_SPACE) && !isInAir)
     {
-      rectangleYVelocity += jumpVelocity;
+      scarfyVelocity += jumpVelocity;
     }
 
-    rectanglePosY += rectangleYVelocity;
+    scarfyPos.y += scarfyVelocity;
+
+    // Draw scarfy
+    DrawTextureRec(scarfy, scarfyRec, scarfyPos, WHITE);
 
     EndDrawing();
 
   }
 
+  UnloadTexture(scarfy);
   CloseWindow();
 
 }

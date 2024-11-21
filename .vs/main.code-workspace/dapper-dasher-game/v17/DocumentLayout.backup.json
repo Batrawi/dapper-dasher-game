@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\main.code-workspace||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.code-workspace||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\libstdc\u002B\u002B-6.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:libstdc\u002B\u002B-6.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\libgcc_s_dw2-1.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:libgcc_s_dw2-1.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\dapper_dasher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dapper_dasher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.code-workspace",
+              "DocumentMoniker": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\main.code-workspace",
+              "RelativeDocumentMoniker": "main.code-workspace",
+              "ToolTip": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\main.code-workspace",
+              "RelativeToolTip": "main.code-workspace",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-21T09:26:16.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "libstdc\u002B\u002B-6.dll",
+              "DocumentMoniker": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\libstdc\u002B\u002B-6.dll",
+              "RelativeDocumentMoniker": "libstdc\u002B\u002B-6.dll",
+              "ToolTip": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\libstdc\u002B\u002B-6.dll",
+              "RelativeToolTip": "libstdc\u002B\u002B-6.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2024-11-21T09:26:12.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "libgcc_s_dw2-1.dll",
+              "DocumentMoniker": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\libgcc_s_dw2-1.dll",
+              "RelativeDocumentMoniker": "libgcc_s_dw2-1.dll",
+              "ToolTip": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\libgcc_s_dw2-1.dll",
+              "RelativeToolTip": "libgcc_s_dw2-1.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2024-11-21T09:26:06.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dapper_dasher.cpp",
+              "DocumentMoniker": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\dapper_dasher.cpp",
+              "RelativeDocumentMoniker": "dapper_dasher.cpp",
+              "ToolTip": "D:\\programming\\gamdev\\c\u002B\u002B\\gamedev.tv project\\dapper-dasher-game\\dapper_dasher.cpp",
+              "RelativeToolTip": "dapper_dasher.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T09:24:06.915Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

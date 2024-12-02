@@ -39,7 +39,7 @@ Dapper Dasher is a simple 2D platformer game created using **C++** and **Raylib*
 ## How to Run
 1. Clone this repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone <(https://github.com/Batrawi/dapper-dasher-game.git)>
    ```
 2. Install Raylib (if not already installed). Visit [Raylib's official website](https://www.raylib.com/) for instructions.
 3. Build and run the game:
